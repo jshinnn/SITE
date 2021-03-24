@@ -40,15 +40,19 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 Correct guess:
+
 ![](https://i.imgur.com/LrfYuHS.gif)
 
-Different pattern each time: 
+Different pattern each time:
+
 ![](https://i.imgur.com/zEfl0ME.gif)
 
 Incorrect guess:
+
 ![](https://i.imgur.com/UCYkIZE.gif)
 
 Game button appearance goes beyond color + Player only loses after 3 mistakes:
+
 ![](https://i.imgur.com/nCIHzwb.gif)
 
 
