@@ -1,0 +1,96 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: navajowhite;
+  color: darkcyan;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  font-style: italic;
+  color: tomato;
+}
+
+button {
+  padding: 19px;
+  border-radius: 10px;
+}
+
+img {
+  width:200px;
+  height:200px;
+  margin:2px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+    
+#button1 {
+  background: lightgreen;
+}
+
+#button1:active, #button1.lit {
+  background: green;
+  background-image: url("https://cdn.glitch.com/3cc2a59c-c3c8-44f3-8d1d-545288b7a08b%2FIMG_9904.JPG?v=1616523621866");
+  background-size:cover;
+}
+
+#button2 {
+  background: lightblue;
+}
+
+#button2:active, #button2.lit {
+  background: blue;
+  background-image: url("https://cdn.glitch.com/3cc2a59c-c3c8-44f3-8d1d-545288b7a08b%2F000025180020.jpg?v=1616547013905");
+  background-size:cover;
+}
+
+#button3 {
+  background: pink;
+}
+
+#button3:active, #button3.lit {
+  background: deeppink;
+  background-image: url("https://cdn.glitch.com/3cc2a59c-c3c8-44f3-8d1d-545288b7a08b%2F000025160013.jpg?v=1616523475082");
+  background-size:cover;
+}
+
+#button4 {
+  background: lightyellow;
+}
+
+#button4:active, #button4.lit {
+  background: yellow;
+  background-image: url("https://cdn.glitch.com/3cc2a59c-c3c8-44f3-8d1d-545288b7a08b%2FIMG_9903.JPG?v=1616523624894");
+  background-size:cover;
+}
+
+#button5 {
+  background: sandybrown;
+}
+
+#button5:active, #button5.lit {
+  background: coral;
+  background-image: url("https://cdn.glitch.com/3cc2a59c-c3c8-44f3-8d1d-545288b7a08b%2FIMG_9905.JPG?v=1616523621657");
+  background-size:cover;
+}
+
+#button6 {
+  background: lightcoral;
+}
+
+#button6:active, #button6.lit {
+  background: red;
+  background-image: url("https://cdn.glitch.com/3cc2a59c-c3c8-44f3-8d1d-545288b7a08b%2F000025170009.jpg?v=1616523498936");
+  background-size:cover;
+}
