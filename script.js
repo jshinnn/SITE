@@ -23,7 +23,7 @@ function startGame() {
   progress = 0;
   gamePlaying = true;
   mistakes = 0;
-  for (var i = 0; i<2; i++) {
+  for (var i = 0; i<13; i++) { // 13 is a random number I chose to be the length of each sequence, but this can be changed (or not!)
     pattern.push(generateRandomPattern(1,6));
   }
   // just for my own sake
