@@ -43,7 +43,7 @@ Correct guess:
 
 ![](https://i.imgur.com/LrfYuHS.gif)
 
-Different pattern each time:
+Different pattern each time (make sure to refresh the page between plays):
 
 ![](https://i.imgur.com/zEfl0ME.gif)
 
