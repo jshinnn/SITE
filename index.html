@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>DJ With Jeong</h1>
+    
+    <p>
+      Welcome to your personal DJ studio. With color. Awesome, right?
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button> 
+    <button id="stopBtn" onclick="stopGame()" class="hidden">
+      Stop
+    </button> 
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+    </div>
+    
+    <div>
+      <img id="image1" class="hidden" src="https://cdn.glitch.com/3cc2a59c-c3c8-44f3-8d1d-545288b7a08b%2F000025170009.jpg?v=1616523498936" alt="Flowers">
+      <img id="image2" class="hidden" src="https://cdn.glitch.com/3cc2a59c-c3c8-44f3-8d1d-545288b7a08b%2F000025160013.jpg?v=1616523475082" alt="Subway Streets">
+      <img id="image3" class="hidden" src="https://cdn.glitch.com/3cc2a59c-c3c8-44f3-8d1d-545288b7a08b%2F000025180020.jpg?v=1616523518177" alt="Mountains">
+      <img id="image4" class="hidden" src="https://cdn.glitch.com/3cc2a59c-c3c8-44f3-8d1d-545288b7a08b%2FIMG_9905.JPG?v=1616523621657" alt="GG Bridge">
+      <img id="image5" class="hidden" src="https://cdn.glitch.com/3cc2a59c-c3c8-44f3-8d1d-545288b7a08b%2FIMG_9904.JPG?v=1616523621866" alt="Plant Nursery">
+      <img id="image6" class="hidden" src="https://cdn.glitch.com/3cc2a59c-c3c8-44f3-8d1d-545288b7a08b%2FIMG_9903.JPG?v=1616523624894" alt="City Landscape">
+    </div>
+      
+  </body>
+</html>
