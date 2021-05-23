@@ -1,8 +1,8 @@
 _Memory Game_
 
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program.
+**Memory Game**
 
-Submitted by: **JEONG SHIN**
+**JEONG SHIN**
 
 Link to project: https://glitch.com/edit/#!/windy-dune-sight 
 
