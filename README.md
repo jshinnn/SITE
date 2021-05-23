@@ -1,7 +1,5 @@
 _Memory Game_
 
-**Memory Game**
-
 **JEONG SHIN**
 
 Link to project: https://glitch.com/edit/#!/windy-dune-sight 
