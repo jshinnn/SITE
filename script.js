@@ -7,7 +7,7 @@ const nextClueWaitTime = 1000; // how long to wait before playing sequence
 var pattern = [];
 var progress = 0;
 var gamePlaying = false;
-var tonePlaying = false;
+var tonePlaying = true;
 var volume = 0.5; // must be between 0.0 and 1.0
 var guessCounter = 0;
 var mistakes;
